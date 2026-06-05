@@ -1,4 +1,4 @@
-Nname="Bariul"
+name="Bariul"
 age=25
 gender="Male"
 print("Name:", name)
