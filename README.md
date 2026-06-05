@@ -1,1 +1,1 @@
-# Python-with-Bariul-Academy
+# Python Programming — Beginner to Intermediate
