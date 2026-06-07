@@ -1,3 +1,4 @@
+#Problem-1
 """
 class Student:
     #Attributes
@@ -22,6 +23,8 @@ s2=Student()
 s2.set_info()
 s2.display()    
 """
+#Problem-2
+"""
 class Student:
     #Attributes
     name=""
@@ -37,3 +40,15 @@ class Student:
 s1=Student()
 s1.set_info ("Alice", 20, "Female")
 s1.display()
+"""
+
+class Student:
+    def __init__(self, name, gender, age):
+        self.name=name
+        self.gender=gender
+        self.age=age    
+    def display(self):
+        print(f"My name is {self.name}, age is {self.age} and gender is {self.gender}")
+              
+s1=Student("Alice", "Female", 20)
+s1.display()  
